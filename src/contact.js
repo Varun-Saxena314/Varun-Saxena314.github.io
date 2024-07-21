@@ -40,8 +40,8 @@ const Contact = () => {
 
   return (
     <div className='container contact-container'>
-      <div className='text' style={{ marginLeft: '5%', marginTop: 30}}>
-        <h1 className='fade3' style={{ fontSize: '3vw' }}>Contact</h1>
+      <div className='text' style={{ marginLeft: '5%', marginTop: '3%'}}>
+        <h1 className='fade3' style={{ fontSize: '300%' }}>Contact</h1>
         <p className='fade3'>
           If you'd like to contact me, whether you want to add me on your team, want assistance on a project or application,
           or to learn more about me, email me at:
@@ -51,7 +51,7 @@ const Contact = () => {
             varunsaxena314@gmail.com
           </a>
         </p>
-        <p style={{ marginTop: '50px' }} className='fade3'>
+        <p style={{ marginTop: '5%' }} className='fade3'>
           You may also contact me and check out more about me here!
         </p>
         <div className='LinkButtons'>

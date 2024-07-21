@@ -45,8 +45,8 @@ const About = () => {
     }, []);
     return (
         <div className='container about-container'>
-            <div className='text' style= {{marginLeft: '5%', marginTop: 30}}>
-                <h1 className = 'fade' style = {{fontSize: '3vw'}}>Who I Am</h1>
+            <div className='text' style= {{marginLeft: '5%', marginTop: '3%'}}>
+                <h1 className = 'fade' style = {{fontSize: '300%'}}>Who I Am</h1>
                 <p className='fade'>Hi! My name is Varun Saxena and I will be a second year student 
                     pursuing a bachelor's degree in  computer science at the 
                     University of Virginia in the Fall. I was initially interested in STEM and computer science 
@@ -76,50 +76,50 @@ const About = () => {
                  solving, communicating, teaching, and learning, please reach out!
             </p>
             </div>
-            <div className='altText' style= {{marginLeft: '5%', marginTop: 30, color: 'white'}}>
-                <h1 className = 'fade' style = {{fontSize: '3vw'}}>Skills</h1>
+            <div className='altText' style= {{marginLeft: '5%', marginTop: '3%', color: 'white'}}>
+                <h1 className = 'fade' style = {{fontSize: '300%'}}>Skills</h1>
                     <p className='fade'>Here are the skills I'm proficient at!</p>
                     <div className='skills'>
                         <div className='fade2'>
                             <div className='skillCard'>
-                                <img src={Java} style={{width: '60px', height: '60px'}} alt='Java Logo'/> 
-                               <p1 style={{marginTop: '20px'}}>Java</p1>  
+                                <img src={Java} style={{width: '70%', height: '50%'}} alt='Java Logo'/> 
+                               <p1 style={{marginTop: '20%'}}>Java</p1>  
                             </div>
                         </div>
                         <div className='fade2'>
                             <div className='skillCard'>
-                            <img src={Python} style={{width: '60px', height: '60px'}} alt='Python Logo'/> 
-                                <p1 style={{marginTop: '20px'}}>Python</p1>
+                            <img src={Python} style={{width: '70%', height: '50%'}} alt='Python Logo'/> 
+                                <p1 style={{marginTop: '20%'}}>Python</p1>
                             </div>
                         </div>
                         <div className='fade2'>
                             <div className='skillCard'>
-                            <img src={JS} style={{width: '60px', height: '60px'}} alt='JavaScript Logo'/> 
-                                <p1 style={{marginTop: '20px'}}>JavaScript</p1>
+                            <img src={JS} style={{width: '70%', height: '50%'}} alt='JavaScript Logo'/> 
+                                <p1 style={{marginTop: '20%'}}>JavaScript</p1>
                             </div>
                         </div>
                         <div className='fade2'>
                             <div className='skillCard'>
-                            <img src={CSS} style={{width: '60px', height: '60px'}} alt='CSS Logo'/> 
-                                <p1 style={{marginTop: '20px'}}>CSS</p1>
+                            <img src={CSS} style={{width: '70%', height: '50%'}} alt='CSS Logo'/> 
+                                <p1 style={{marginTop: '20%'}}>CSS</p1>
                             </div>
                         </div>
                         <div className='fade2'>
                             <div className='skillCard'>
-                            <img src={HTML} style={{width: '60px', height: '60px'}} alt='HTML Logo'/> 
-                                <p1 style={{marginTop: '20px'}}>HTML</p1>
+                            <img src={HTML} style={{width: '70%', height: '50%'}} alt='HTML Logo'/> 
+                                <p1 style={{marginTop: '20%'}}>HTML</p1>
                             </div>
                         </div>
                         <div className='fade2'>
                             <div className='skillCard'>
-                            <img src={Reac} style={{width: '60px', height: '60px'}} alt='React Logo'/> 
-                                <p1 style={{marginTop: '20px'}}>React.JS</p1>
+                            <img src={Reac} style={{width: '70%', height: '50%'}} alt='React Logo'/> 
+                                <p1 style={{marginTop: '20%'}}>React.JS</p1>
                             </div>
                         </div>
                     </div>
               </div>
-              <div className='text' style= {{marginLeft: '5%', marginTop: 30, color: 'white'}}>
-                <h1 className = 'fade' style = {{fontSize: '3vw'}}>Hobbies</h1>
+              <div className='text' style= {{marginLeft: '5%', marginTop: '3%', color: 'white'}}>
+                <h1 className = 'fade' style = {{fontSize: '300%'}}>Hobbies</h1>
                     <p className='fade'> My favorite passtimes and hobbies include playing basketball,
                         playing volleyball, cooking delicious food, sketching and drawing,
                         and spending time with my friends and family. I feel these interests 

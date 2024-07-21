@@ -7,9 +7,9 @@ const HomePage = () => {
     <div className='TheHomePage'>
     <div className='homepage' style={{ marginLeft: '4%', overflow: 'hidden', color: "white" }}>
     <div className='GreetingPage'>
-      <div style={{ marginTop: '5vh', fontSize: '5vw' }}>Hello World!</div>
-      <div style={{ marginTop: '5vh', fontSize: '5vw' }}>My name is Varun Saxena</div>
-      <div style={{ marginTop: '5vh', fontSize: '5vw' }}><TypeWriter/></div>
+      <div style={{ marginTop: '4%', fontSize: '500%' }}>Hello World!</div>
+      <div style={{ marginTop: '4%', fontSize: '500%'  }}>My name is Varun Saxena</div>
+      <div style={{ marginTop: '4%', fontSize: '500%'  }}><TypeWriter/></div>
     </div>
     <div className='LinkButtons'>
       <a href='https://docs.google.com/document/d/1Ku1VgcknSs8NiKiHI02iq665LjqevQTLAAu6wrzEr2s/edit' target='_blank' rel='noopener noreferrer'>
@@ -24,7 +24,7 @@ const HomePage = () => {
     </div>
     </div>
     <div className='picture'>
-    /*<img src={myImage} style={{ width: '120%', maxWidth: '400px', height: 'auto', minHeight: '400px' }} alt="Profile" />*/
+    /*<img src={myImage} style={{ width: '120%', maxWidth: '150%', height: 'auto', minHeight: '400px' }} alt="Profile" />*/
     </div>
     </div>
   );
