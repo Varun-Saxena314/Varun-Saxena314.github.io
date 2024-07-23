@@ -2,8 +2,9 @@
 <html>
   <head>
     <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="0; URL='https://varun-saxena314.github.io'" />
     <script type="text/javascript">
-      // Redirect to the root of your GitHub Pages site but preserve the path, search, and hash
+      // Redirect to the root of the GitHub Pages site but preserve the path, search, and hash
       (function() {
         var pathname = window.location.pathname;
         var search = window.location.search;
@@ -11,7 +12,7 @@
         var baseUrl = "https://varun-saxena314.github.io";
         var newUrl = baseUrl + pathname + search + hash;
 
-        // Only redirect if the new URL is different
+        // Avoid redirect loop by checking if we're already on the correct page
         if (window.location.href !== newUrl) {
           window.location.href = newUrl;
         }
