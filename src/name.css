@@ -133,6 +133,14 @@ body {
   margin-left: 5%;
   font-size: 130%;
 }
+.about-container p{
+  margin-left: 5%;
+  font-size: 130%;
+}
+.project-container p{
+  margin-left: 5%;
+  font-size: 130%;
+}
 .fade{
   opacity: 0;
   filter: blur(5px);

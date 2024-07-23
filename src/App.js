@@ -11,17 +11,17 @@ import Name from './HomePage';
 const App = () => {
   return (
     <>
-    <Router>
-      <NavBar />
-      <Routes>
-        <Route  path="/about" element={<About />} />
-        <Route  path="/projects" element={<Projects />} />
-        <Route  path="/contact" element={<Contact />} />
-        <Route  path="/theButton" element={<TheButton />} />
-        <Route  path="/HomePage" element={<Name />} />
-        <Route path="/" element={<HomePageDisplay />} />
-      </Routes>
-    </Router>
+      <Router basename={process.env.PUBLIC_URL}>
+        <NavBar />
+        <Routes>
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/theButton" element={<TheButton />} />
+          <Route path="/HomePage" element={<Name />} />
+          <Route path="/" element={<HomePageDisplay />} />
+        </Routes>
+      </Router>
     </>
   );
 }
