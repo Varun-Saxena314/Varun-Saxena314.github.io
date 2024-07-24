@@ -21,7 +21,7 @@ const Project = () => {
     }, []);
     return (
         <div className='container project-container'>
-        <div className='text' style={{ marginLeft: '5%', marginTop: '3%'}}>
+        <div className='text2' style={{ marginLeft: '5%', marginTop: '3%'}}>
           <h1 className='fade' style={{ fontSize: '300%' }}>Projects</h1>
           <p className='fade'>
             Developed a website which allows you to play TicTacToe!
@@ -29,6 +29,15 @@ const Project = () => {
         <p className='fade'>
             It contains three levels, the first one being 3x3 TicTacToe, the second being
             4x4 TicTacToe, and the third level being a game of Connect4!
+        </p>
+        <p className='fade'>
+        <div className='probuttoncontainer'>
+        <div className='probutton'>
+            <a href='https://varun-saxena314.github.io/TTT/' target='_blank' rel='noopener noreferrer'>
+                <button className='BLink'>Play Here!</button>
+            </a>
+        </div>
+        </div>
         </p>
           </div>
         </div>

@@ -57,17 +57,17 @@ const Contact = () => {
         <div className='LinkButtons'>
           <p className='fade4'>
             <a href='https://docs.google.com/document/d/1Ku1VgcknSs8NiKiHI02iq665LjqevQTLAAu6wrzEr2s/edit' target='_blank' rel='noopener noreferrer'>
-              <button className='BLink2'>Resume</button>
+              <button className='BLink'>Resume</button>
             </a>
           </p>
           <p className='fade4'>
             <a href='https://www.linkedin.com/in/varun-saxena314/' target='_blank' rel='noopener noreferrer'>
-              <button className='BLink2'>LinkedIn</button>
+              <button className='BLink'>LinkedIn</button>
             </a>
           </p>
           <p className='fade4'>
             <a href='https://github.com/Varun-Saxena314' target='_blank' rel='noopener noreferrer'>
-              <button className='BLink2'>GitHub</button>
+              <button className='BLink'>GitHub</button>
             </a>
           </p>
         </div>
