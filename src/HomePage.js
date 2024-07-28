@@ -23,8 +23,8 @@ const HomePage = () => {
       </a>
     </div>
     </div>
-    <div className='picture'>
-    /*<img src={myImage} style={{ width: '120%', maxWidth: '150%', height: 'auto', minHeight: '400px' }} alt="Profile" />*/
+    <div className='picture' style={{marginRight: '4%'}}>
+        /*<img src={myImage} alt="Profile" />*/
     </div>
     </div>
   );

@@ -5,7 +5,7 @@ import './color.css';
 
 const NavBar = () => {
   return (
-    <nav style={{ display: 'flex', justifyContent: 'space-between', padding: '1.2%' }}>
+    <nav style={{ display: 'flex', justifyContent: 'space-between', padding: '1.2%'}}>
       <div className="left">
       <Link to="/HomePage">Varun Saxena</Link>
       </div>
