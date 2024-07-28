@@ -60,8 +60,8 @@ const About = () => {
                      and coding, and earning many rewards and qualifying for the state and national level of FTC and FRC. While doing this, Centreville robotics held 
                      numerous STEM fairs at our high school, where we could teach kids about STEM and programming. My brother and I also started 
                      a programming club at our old elementary school Centre Ridge, where we taught numerous fourth through sixth graders about Scratch and Java. I was also fortunate enough to 
-                     join the Nth Degree private robotics team, where I also assisted in the java framework for PID/Feedforward Control, Dead Reckoning/Odometry, Motion Profiling, Kalman/Low Pass Filters, 
-                     & OpenCV/TensorFlow Image Processing implementation for our robot and assisted in the outreach program of Nth Degree, including participating in FIRST Global, where our team 
+                     join the Nth Degree private robotics team, where I also assisted in the java framework for PID/Feedforward Control, Motion Profiling, 
+                     & OpenCV/TensorFlow Image Processing. I also assisted in the outreach program of Nth Degree, including participating in FIRST Global, where our team 
                      connected to a group of kids in the Cayman Islands and assisted in them making their first ever functional robot.
             </p>
             <p className='fade'>I continued to kindle and grow my interest in computer science when I arrived at UVA. 
