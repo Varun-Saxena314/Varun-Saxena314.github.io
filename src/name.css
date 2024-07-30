@@ -96,7 +96,11 @@ body {
   flex-direction: row;
   justify-content: center;
 }
-
+.vertLine{
+  height: 1px;
+  background-color: white;
+  margin-left: 5%;
+}
 .BLink{
   width: 100px;
   height: 50px;
@@ -124,7 +128,7 @@ body {
 }
 
 .picture {
-  width: 400px;
+  width: 27%;
   height: 500px;
 }
 .picture img{
@@ -146,10 +150,6 @@ body {
   font-size: 130%;
 }
 .contact-container p{
-  margin-left: 5%;
-  font-size: 130%;
-}
-.about-container p{
   margin-left: 5%;
   font-size: 130%;
 }
@@ -176,6 +176,18 @@ body {
 }
 .fade:nth-child(4){
   transition-delay: 600ms;
+}
+.fade:nth-child(5){
+  transition-delay: 800ms;
+}
+.fade:nth-child(6){
+  transition-delay: 1000ms;
+}
+.fade:nth-child(7){
+  transition-delay: 1200ms;
+}
+.fade:nth-child(8){
+  transition-delay: 1400ms;
 }
 .fade2{
   opacity: 0;

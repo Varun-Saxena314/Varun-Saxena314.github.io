@@ -123,7 +123,7 @@ const About = () => {
                     <p className='fade'> My favorite passtimes and hobbies include playing basketball,
                         playing volleyball, cooking delicious food, sketching and drawing,
                         and spending time with my friends and family. I feel these interests 
-                        help showcase and represent and have built my personal beliefs and values
+                        help showcase and represent my personal beliefs and values
                         of teamwork, creativity, and appreciating and respecting others.
                     </p>
             </div>

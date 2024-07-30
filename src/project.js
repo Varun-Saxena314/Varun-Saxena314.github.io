@@ -39,6 +39,24 @@ const Project = () => {
         </div>
         </div>
         </p>
+       <p className='fade'><div className='vertLine'></div></p> 
+        <p className='fade'>
+            Developed a website which allows you to make a grocery list!
+        </p>
+        <p className='fade'>
+            It contains an area to input the name of your grocery and how much
+            of it you'd like! It also allows you to move the items up and down
+            if you want to reorder your items. 
+        </p>
+        <p className='fade'>
+        <div className='probuttoncontainer'>
+        <div className='probutton'>
+            <a href='https://varun-saxena314.github.io/ListApp/' target='_blank' rel='noopener noreferrer'>
+                <button className='BLink'>Open Here!</button>
+            </a>
+        </div>
+        </div>
+        </p>
           </div>
         </div>
     )
