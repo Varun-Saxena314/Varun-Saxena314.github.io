@@ -7,6 +7,8 @@ import HTML from './images/HTML_logo.webp';
 import CSS from './images/CSS_logo.png';
 import JS from './images/JS_logo.webp';
 import Reac from './images/React_logo.webp';
+import C from './images/C_logo.png';
+import SQL from './images/SQL_logo.webp';
 
 const About = () => {
     useEffect(() => {
@@ -114,6 +116,18 @@ const About = () => {
                             <div className='skillCard'>
                             <img src={Reac} style={{width: '70%', height: '50%'}} alt='React Logo'/> 
                                 <p1 style={{marginTop: '20%'}}>React.JS</p1>
+                            </div>
+                        </div>
+                        <div className='fade2'>
+                            <div className='skillCard'>
+                            <img src={C} style={{width: '70%', height: '50%'}} alt='C Logo'/> 
+                                <p1 style={{marginTop: '20%'}}>C</p1>
+                            </div>
+                        </div>
+                        <div className='fade2'>
+                            <div className='skillCard'>
+                            <img src={SQL} style={{width: '70%', height: '50%'}} alt='SQL Logo'/> 
+                                <p1 style={{marginTop: '20%'}}>SQL</p1>
                             </div>
                         </div>
                     </div>

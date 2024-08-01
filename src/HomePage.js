@@ -7,8 +7,8 @@ const HomePage = () => {
     <div className='TheHomePage'>
     <div className='homepage' style={{ marginLeft: '4%', overflow: 'hidden', color: "white" }}>
     <div className='GreetingPage'>
-      <div style={{ marginTop: '4%', fontSize: '500%' }}>Hello World!</div>
-      <div style={{ marginTop: '4%', fontSize: '500%'  }}>My name is Varun Saxena</div>
+      <div className = 'gradient' style={{ marginTop: '4%', fontSize: '500%', }}>Hello World!</div>
+      <div className='gradient' style={{ marginTop: '4%', fontSize: '500%'  }}>My name is Varun Saxena</div>
       <div style={{ marginTop: '4%', fontSize: '500%'  }}><TypeWriter/></div>
     </div>
     <div className='LinkButtons'>
