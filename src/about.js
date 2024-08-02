@@ -54,27 +54,20 @@ const About = () => {
                     University of Virginia in the Fall. I was initially interested in STEM and computer science 
                     at the start of middle school, where I joined the 
                     Centreville Robotics organization. I was quickly shown the ropes
-                     of the robotics organization, which included designing and 
-                     building robots, but it also included coding them to move 
-                     autonomously and through user input. I was a member and later team 
-                     leader and board member of Centreville Robotics for six years, and I gained a lot of 
-                     experience through building and coding numerous robots for competitions, as well as teaching new members engineering 
-                     and coding, and earning many rewards and qualifying for the state and national level of FTC and FRC. While doing this, Centreville robotics held 
-                     numerous STEM fairs at our high school, where we could teach kids about STEM and programming. My brother and I also started 
-                     a programming club at our old elementary school Centre Ridge, where we taught numerous fourth through sixth graders about Scratch and Java. I was also fortunate enough to 
-                     join the Nth Degree private robotics team, where I also assisted in the java framework for PID/Feedforward Control, Motion Profiling, 
-                     & OpenCV/TensorFlow Image Processing. I also assisted in the outreach program of Nth Degree, including participating in FIRST Global, where our team 
-                     connected to a group of kids in the Cayman Islands and assisted in them making their first ever functional robot.
+                     of the robotics organization, which included coding numerous robots to move 
+                     autonomously and through user input. I gained six year  of 
+                     experience through the organization, building and coding numerous robots for competitions, as well as teaching 
+                     new members how to code. 
             </p>
-            <p className='fade'>I continued to kindle and grow my interest in computer science when I arrived at UVA. 
-                I did this by taking numerous computer science undergraduate classes, helping me learn more about the field, 
+            <p className='fade'>I continued to kindle and grow my interest in computer science when I arrived at UVA.
+                I've taken many insightful computer science undergraduate classes, helping me learn more about the field, 
                 such as data structures, 
                 computer systems, and discrete mathematics. 
             </p>
             <p className='fade'>I want to continue expanding my knowledge on computer 
                 science and one day contribute in the full-stack development of web applications
-                 and apps as well as contribute to machine learning. I want to contribute to extensive and complex applications to be utilized by many 
-                 and help numerous people. If you’re looking for someone who is strong at problem 
+                 and apps, both used by numerous users and implementing new technolgoies like AI. 
+                 If you’re looking for someone who is strong at problem 
                  solving, communicating, teaching, and learning, please reach out!
             </p>
             </div>
@@ -136,8 +129,8 @@ const About = () => {
                 <h1 className = 'fade' style = {{fontSize: '300%'}}>Hobbies</h1>
                     <p className='fade'> My favorite passtimes and hobbies include playing basketball,
                         playing volleyball, cooking delicious food, sketching and drawing,
-                        and spending time with my friends and family. I feel these interests 
-                        help showcase and represent my personal beliefs and values
+                        and spending time with my friends and family. These interests 
+                        help showcase my personal values
                         of teamwork, creativity, and appreciating and respecting others.
                     </p>
             </div>
