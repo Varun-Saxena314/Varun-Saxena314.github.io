@@ -20,6 +20,23 @@ const Contact = () => {
 
     return () => observer.disconnect();
   }, []);
+  
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('show3');
+        } else {
+          entry.target.classList.remove('show3');
+        }
+      });
+    });
+
+    const fades = document.querySelectorAll('.fade3');
+    fades.forEach((el) => observer.observe(el));
+
+    return () => observer.disconnect();
+  }, []);
 
   return (
     <div className='container contact-container'>
@@ -38,17 +55,17 @@ const Contact = () => {
           You may also contact me and check out more about me here!
         </p>
         <div className='LinkButtons'>
-          <p className='fade'>
+          <p className='fade3'>
             <a href='https://docs.google.com/document/d/1Ku1VgcknSs8NiKiHI02iq665LjqevQTLAAu6wrzEr2s/edit' target='_blank' rel='noopener noreferrer'>
               <button className='BLink'>Resume</button>
             </a>
           </p>
-          <p className='fade'>
+          <p className='fade3'>
             <a href='https://www.linkedin.com/in/varun-saxena314/' target='_blank' rel='noopener noreferrer'>
               <button className='BLink'>LinkedIn</button>
             </a>
           </p>
-          <p className='fade'>
+          <p className='fade3'>
             <a href='https://github.com/Varun-Saxena314' target='_blank' rel='noopener noreferrer'>
               <button className='BLink'>GitHub</button>
             </a>
