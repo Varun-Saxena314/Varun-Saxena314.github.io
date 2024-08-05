@@ -22,7 +22,7 @@ const Project = () => {
     return (
         <div className='container project-container'>
         <div className='text2' style={{ marginLeft: '5%', marginTop: '3%'}}>
-          <h1 className='fade' style={{ fontSize: '300%' }}>Projects</h1>
+          <h1 className='fade'>Projects</h1>
           <p className='fade'>
             Developed a website which allows you to play TicTacToe!
         </p>

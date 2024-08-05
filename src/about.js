@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import Footer from './Footer';
 import './name.css';
+import './media.css';
 import Java from './images/java_logo.webp';
 import Python from './images/python_logo.png';
 import HTML from './images/HTML_logo.webp';
@@ -47,7 +48,7 @@ const About = () => {
     }, []);
     return (
         <div className='container about-container'>
-            <div className='text' style= {{marginLeft: '5%', marginTop: '3%'}}>
+            <div className='text' >
                 <h1 className = 'fade' style = {{fontSize: '300%'}}>Who I Am</h1>
                 <p className='fade'>Hi! My name is Varun Saxena and I will be a second year student 
                     pursuing a bachelor's degree in  computer science at the 
@@ -71,61 +72,61 @@ const About = () => {
                  solving, communicating, teaching, and learning, please reach out!
             </p>
             </div>
-            <div className='altText' style= {{marginLeft: '5%', marginTop: '3%', color: 'white'}}>
-                <h1 className = 'fade' style = {{fontSize: '300%'}}>Skills</h1>
+            <div className='altText'>
+                <h1 className = 'size fade'>Skills</h1>
                     <p className='fade'>Here are the skills I'm proficient at!</p>
                     <div className='skills'>
                         <div className='fade2'>
                             <div className='skillCard'>
-                                <img src={Java} style={{width: '70%', height: '50%'}} alt='Java Logo'/> 
+                                <img src={Java}  alt='Java Logo'/> 
                                <p1 style={{marginTop: '20%'}}>Java</p1>  
                             </div>
                         </div>
                         <div className='fade2'>
                             <div className='skillCard'>
-                            <img src={Python} style={{width: '70%', height: '50%'}} alt='Python Logo'/> 
+                            <img src={Python} alt='Python Logo'/> 
                                 <p1 style={{marginTop: '20%'}}>Python</p1>
                             </div>
                         </div>
                         <div className='fade2'>
                             <div className='skillCard'>
-                            <img src={JS} style={{width: '70%', height: '50%'}} alt='JavaScript Logo'/> 
+                            <img src={JS}  alt='JavaScript Logo'/> 
                                 <p1 style={{marginTop: '20%'}}>JavaScript</p1>
                             </div>
                         </div>
                         <div className='fade2'>
                             <div className='skillCard'>
-                            <img src={CSS} style={{width: '70%', height: '50%'}} alt='CSS Logo'/> 
+                            <img src={CSS}  alt='CSS Logo'/> 
                                 <p1 style={{marginTop: '20%'}}>CSS</p1>
                             </div>
                         </div>
                         <div className='fade2'>
                             <div className='skillCard'>
-                            <img src={HTML} style={{width: '70%', height: '50%'}} alt='HTML Logo'/> 
+                            <img src={HTML}  alt='HTML Logo'/> 
                                 <p1 style={{marginTop: '20%'}}>HTML</p1>
                             </div>
                         </div>
                         <div className='fade2'>
                             <div className='skillCard'>
-                            <img src={Reac} style={{width: '70%', height: '50%'}} alt='React Logo'/> 
+                            <img src={Reac}  alt='React Logo'/> 
                                 <p1 style={{marginTop: '20%'}}>React.JS</p1>
                             </div>
                         </div>
                         <div className='fade2'>
                             <div className='skillCard'>
-                            <img src={C} style={{width: '70%', height: '50%'}} alt='C Logo'/> 
+                            <img src={C}  alt='C Logo'/> 
                                 <p1 style={{marginTop: '20%'}}>C</p1>
                             </div>
                         </div>
                         <div className='fade2'>
                             <div className='skillCard'>
-                            <img src={SQL} style={{width: '70%', height: '50%'}} alt='SQL Logo'/> 
+                            <img src={SQL} alt='SQL Logo'/> 
                                 <p1 style={{marginTop: '20%'}}>SQL</p1>
                             </div>
                         </div>
                     </div>
               </div>
-              <div className='text' style= {{marginLeft: '5%', marginTop: '3%', color: 'white'}}>
+              <div className='text'>
                 <h1 className = 'fade' style = {{fontSize: '300%'}}>Hobbies</h1>
                     <p className='fade'> My favorite passtimes and hobbies include playing basketball,
                         playing volleyball, cooking delicious food, sketching and drawing,

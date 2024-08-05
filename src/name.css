@@ -31,6 +31,9 @@
   font-weight: bold;
   color: white;
   max-width: 66%;
+  margin-Left: 5%; 
+  margin-Top: 3%;
+   color: white;
 }
 .text2{
   font-family: 'Arial, sans-serif';
@@ -41,6 +44,9 @@
 .altText{
   font-family: 'Arial, sans-serif';
   font-weight: bold;
+  margin-Left: 5%; 
+  margin-Top: 3%;
+  color: white;
 }
 .skills{
  width: 90%;
@@ -67,6 +73,10 @@
   -8px -8px 20px rgba(0, 0, 0, 0.3), 
   -8px -8px 20px rgba(0, 0, 0, 0.3) inset; 
   animation: bounce 2s infinite;
+}
+.skillCard img{
+  width: 70%; 
+  height: 50%;
 }
 nav {
   position: -webkit-sticky; /* For Safari */
@@ -137,6 +147,9 @@ body {
   color: white;
   width: 100%;
 }
+.size{
+  font-size: 300%;
+}
 .gap{
   margin-top: 4%;
 }
@@ -170,6 +183,9 @@ body {
 .project-container p{
   margin-left: 5%;
   font-size: 130%;
+}
+.project-container h1{
+  font-size: 300%;
 }
 .fade{
   opacity: 0;

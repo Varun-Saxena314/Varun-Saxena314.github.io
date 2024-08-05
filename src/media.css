@@ -1,4 +1,5 @@
 @media (max-width: 1024px){
+    /* homepage */
     .GreetingPage{
         font-size: 300%;
       }
@@ -16,8 +17,25 @@
       .gap{
         margin-top: 6%;
       }
+      /*About*/
+      .text{
+        font-size: 80%;
+        max-width: 66%;
+      }
+      .skillCard{
+        width: 90px;
+        height: 130px;
+      }
+      /*project*/
+      .project-container p{
+        font-size: 100%;
+      }
+      .project-container h1{
+        font-size: 250%;
+      }
 }
 @media (max-width: 768px){
+    /* homepage */
     .GreetingPage{
         font-size: 250%;
       }
@@ -36,8 +54,25 @@
       .gap{
         margin-top: 8%;
       }
+      /*About*/
+      .text{
+        font-size: 70%;
+        max-width: 66%;
+      }
+      .skillCard{
+        width: 80px;
+        height: 105px;
+      }
+      /*project*/
+      .project-container p{
+        font-size: 100%;
+      }
+      .project-container h1{
+        font-size: 250%;
+      }
 }
 @media (max-width: 560px){
+    /* homepage */
     .GreetingPage{
         font-size: 150%;
         margin-top: 10vh;
@@ -62,9 +97,35 @@
       .left {
         font-size: 130%;
       }
-      
+      /*About*/
+      .text{
+        font-size: 60%;
+        max-width: 66%;
+      }
+      .skillCard{
+        width: 65px;
+        height: 90px;
+      }
+      .skillCard p1{
+        font-size: 70%;
+      }
+      .skillCard img{
+        width: 60%; 
+        height: 40%;
+      }
+      .size{
+        font-size: 200%;
+      }
+      /*project*/
+      .project-container p{
+        font-size: 90%;
+      }
+      .project-container h1{
+        font-size: 200%;
+      }
 }
 @media (max-width: 321px){
+    /* homepage */
     .GreetingPage{
         font-size: 100%;
         margin-top: 10vh;
@@ -93,5 +154,50 @@
         gap: 10px ;
         font-size: 80%;
       }
-      
+       /*About*/
+       .text{
+        font-size: 35%;
+        max-width: 70%;
+      }
+      .altText{
+        font-size: 25%;
+        max-width: 70%;
+      }
+      .skillCard{
+        width: 30px;
+        height: 40px;
+      }
+      .skills{
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1rem;
+        margin-top: 12%;
+        margin-left: 10%;
+       }
+      .skillCard p1{
+        font-size: 25%;
+      }
+      .skillCard img{
+        width: 50%; 
+        height: 35%;
+      }
+      .size{
+        font-size: 300%;
+      }
+      .about-container{
+        width: 100%;
+      }
+      .text{
+        margin-top: 10%;
+      }
+      .altText{
+        margin-Top: 10%;
+      }
+      /*project*/
+      .project-container p{
+        font-size: 70%;
+        margin-top: 20%;
+      }
+      .project-container h1{
+        font-size: 150%;
+      }
 }
