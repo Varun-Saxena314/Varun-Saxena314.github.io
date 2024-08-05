@@ -9,7 +9,7 @@ const NavBar = () => {
       <div className="left">
       <Link to="/HomePage">Varun Saxena</Link>
       </div>
-      <div className = "right" style={{ display: 'flex', justifyContent: 'space-around', padding: '.5%', gap: '20px' }}>
+      <div className = "right">
         <Link to="/about">About Me</Link>
         <Link to="/projects">Projects</Link>
         <Link to="/contact">Contact</Link>

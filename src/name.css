@@ -13,12 +13,18 @@
     font-family: 'Arial, sans-serif';
     font-size: 200%;
     font-weight: bold;
-    /* Add any other styling properties you want */
+  }
+  .right{
+    display: flex;
+    justify-content: space-around;
+    padding: .5%;
+    gap: 20px ;
   }
 .GreetingPage{
   font-family: 'Arial, sans-serif';
   font-weight: bold;
   width: 100%;
+  font-size: 500%;
 }
 .text{
   font-family: 'Arial, sans-serif';
@@ -126,11 +132,18 @@ body {
 }
 .homepage{
   flex: 1;
+  margin-left: 4%;
+  overflow: hidden;
+  color: white;
+  width: 100%;
 }
-
+.gap{
+  margin-top: 4%;
+}
 .picture {
-  width: 27%;
+  width: 20%;
   height: 500px;
+  margin-Right: 4%;
 }
 .picture img{
     width: 100%;

@@ -1,0 +1,97 @@
+@media (max-width: 1024px){
+    .GreetingPage{
+        font-size: 300%;
+      }
+      .BLink{
+        width: 75px;
+        height: 40px;
+      }
+      .LinkButtons {
+        margin-top: 20vh
+      }
+      .picture {
+        width: 27%;
+        height: 400px;
+      }
+      .gap{
+        margin-top: 6%;
+      }
+}
+@media (max-width: 768px){
+    .GreetingPage{
+        font-size: 250%;
+      }
+      .BLink{
+        width: 70px;
+        height: 40px;
+      }
+      .LinkButtons {
+        margin-top: 20vh
+      }
+      .picture {
+        width: 20%;
+        height: 250px;
+        margin-top: 5%;
+      }
+      .gap{
+        margin-top: 8%;
+      }
+}
+@media (max-width: 560px){
+    .GreetingPage{
+        font-size: 150%;
+        margin-top: 10vh;
+      }
+      .BLink{
+        width: 60px;
+        height: 35px;
+        font-size: 10px;
+      }
+      .LinkButtons {
+        margin-top: 20vh;
+        width: 100%;
+      }
+      .picture {
+        margin-top: 10%;
+        width: 27%;
+        height: 200px;
+      }
+      .gap{
+        margin-top: 15%;
+      }
+      .left {
+        font-size: 130%;
+      }
+      
+}
+@media (max-width: 321px){
+    .GreetingPage{
+        font-size: 100%;
+        margin-top: 10vh;
+      }
+    .picture {
+        margin-top: 10%;
+        width: 27%;
+        height: 150px;
+        margin-top: 30%;
+      }
+      .gap{
+        margin-top: 20%;
+      }
+      .homepage{
+        margin-top: 20%;
+      }
+      .BLink{
+        width: 50px;
+        height: 25px;
+        font-size: 7px;
+      }
+      .left {
+        font-size: 100%;
+      }
+      .right{
+        gap: 10px ;
+        font-size: 80%;
+      }
+      
+}

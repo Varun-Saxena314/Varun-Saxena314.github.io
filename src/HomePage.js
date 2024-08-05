@@ -1,15 +1,16 @@
 import React from 'react';
 import TypeWriter from './Assets/Typewriter';
 import './name.css';
+import './media.css';
 import myImage from './images/Profile.JPG';
 const HomePage = () => {
   return (
     <div className='TheHomePage'>
-    <div className='homepage' style={{ marginLeft: '4%', overflow: 'hidden', color: "white" }}>
+    <div className='homepage'>
     <div className='GreetingPage'>
-      <div className = 'gradient' style={{ marginTop: '4%', fontSize: '500%', }}>Hello World!</div>
-      <div className='gradient' style={{ marginTop: '4%', fontSize: '500%'  }}>My name is Varun Saxena</div>
-      <div style={{ marginTop: '4%', fontSize: '500%'  }}><TypeWriter/></div>
+      <div className = 'gap gradient' >Hello World!</div>
+      <div className='gap gradient'>My name is Varun Saxena</div>
+      <div className = 'gap' ><TypeWriter/></div>
     </div>
     <div className='LinkButtons'>
       <a href='https://docs.google.com/document/d/1Ku1VgcknSs8NiKiHI02iq665LjqevQTLAAu6wrzEr2s/edit' target='_blank' rel='noopener noreferrer'>
@@ -23,7 +24,7 @@ const HomePage = () => {
       </a>
     </div>
     </div>
-    <div className='picture' style={{marginRight: '4%'}}>
+    <div className='picture'>
         /*<img src={myImage} alt="Profile" />*/
     </div>
     </div>
