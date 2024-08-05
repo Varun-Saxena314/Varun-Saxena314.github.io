@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.ae6b972b.css",
+    "main.css": "/static/css/main.eb5581f9.css",
     "main.js": "/static/js/main.aa8110e6.js",
     "static/media/Profile.JPG": "/static/media/Profile.9a18779d20743353c696.JPG",
     "static/media/python_logo.png": "/static/media/python_logo.c44b9b809ebf766cbb4f.png",
@@ -12,11 +12,11 @@
     "static/media/java_logo.webp": "/static/media/java_logo.6f743694cf528a37093a.webp",
     "static/media/HTML_logo.webp": "/static/media/HTML_logo.de35146995fd53fa9fa2.webp",
     "index.html": "/index.html",
-    "main.ae6b972b.css.map": "/static/css/main.ae6b972b.css.map",
+    "main.eb5581f9.css.map": "/static/css/main.eb5581f9.css.map",
     "main.aa8110e6.js.map": "/static/js/main.aa8110e6.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae6b972b.css",
+    "static/css/main.eb5581f9.css",
     "static/js/main.aa8110e6.js"
   ]
 }
