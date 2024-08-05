@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.3c6bc578.css",
-    "main.js": "/static/js/main.f5cb86fc.js",
+    "main.css": "/static/css/main.26965b6d.css",
+    "main.js": "/static/js/main.7874339a.js",
     "static/media/Profile.JPG": "/static/media/Profile.9a18779d20743353c696.JPG",
     "static/media/python_logo.png": "/static/media/python_logo.c44b9b809ebf766cbb4f.png",
     "static/media/React_logo.webp": "/static/media/React_logo.fc0396332c9ab25d028a.webp",
@@ -12,11 +12,11 @@
     "static/media/java_logo.webp": "/static/media/java_logo.6f743694cf528a37093a.webp",
     "static/media/HTML_logo.webp": "/static/media/HTML_logo.de35146995fd53fa9fa2.webp",
     "index.html": "/index.html",
-    "main.3c6bc578.css.map": "/static/css/main.3c6bc578.css.map",
-    "main.f5cb86fc.js.map": "/static/js/main.f5cb86fc.js.map"
+    "main.26965b6d.css.map": "/static/css/main.26965b6d.css.map",
+    "main.7874339a.js.map": "/static/js/main.7874339a.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c6bc578.css",
-    "static/js/main.f5cb86fc.js"
+    "static/css/main.26965b6d.css",
+    "static/js/main.7874339a.js"
   ]
 }
