@@ -124,7 +124,7 @@
         font-size: 200%;
       }
 }
-@media (max-width: 321px){
+@media (max-width: 376px){
     /* homepage */
     .GreetingPage{
         font-size: 100%;
