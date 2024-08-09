@@ -222,7 +222,7 @@ body {
 .fade2{
   opacity: 0;
   filter: blur(5px);
-  transform: translateY(-100%);
+  transform: translateY(-150%);
   transition: all 1s;
 }
 .show2{
@@ -239,17 +239,14 @@ body {
 .fade2:nth-child(4){
   transition-delay: 300ms;
 }
-.fade2:nth-child(5){
-  transition-delay: 400ms;
-}
 .fade2:nth-child(6){
-  transition-delay: 500ms;
+  transition-delay: 100ms;
 }
 .fade2:nth-child(7){
-  transition-delay: 600ms;
+  transition-delay: 200ms;
 }
 .fade2:nth-child(8){
-  transition-delay: 600ms;
+  transition-delay: 300ms;
 }
 .fade3{
   opacity: 0;

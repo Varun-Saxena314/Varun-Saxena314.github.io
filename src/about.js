@@ -26,7 +26,7 @@ const About = () => {
         const fades = document.querySelectorAll('.fade');
         fades.forEach((el) => observer.observe(el));
 
-        // Cleanup observer on component unmount
+
         return () => observer.disconnect();
     }, []);
     useEffect(() => {
@@ -43,7 +43,6 @@ const About = () => {
         const fades = document.querySelectorAll('.fade2');
         fades.forEach((el) => observer.observe(el));
 
-        // Cleanup observer on component unmount
         return () => observer.disconnect();
     }, []);
     return (
