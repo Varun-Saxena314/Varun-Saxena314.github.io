@@ -22,9 +22,15 @@
         font-size: 80%;
         max-width: 66%;
       }
+      .altText{
+        font-size: 75%;
+      }
       .skillCard{
         width: 90px;
         height: 130px;
+      }
+      .container h1:after{
+        width: 30px;
       }
       /*project*/
       .project-container p{
@@ -102,6 +108,9 @@
         font-size: 60%;
         max-width: 66%;
       }
+      .altText{
+        font-size: 75%;
+      }
       .skillCard{
         width: 65px;
         height: 90px;
@@ -115,6 +124,9 @@
       }
       .size{
         font-size: 200%;
+      }
+      .container h1:after{
+        width: 20px;
       }
       /*project*/
       .project-container p{
@@ -199,5 +211,11 @@
       }
       .project-container h1{
         font-size: 150%;
+      }
+      .container h1:after{
+        width: 10px;
+      }
+      .altText{
+        font-size: 35%;
       }
 }
