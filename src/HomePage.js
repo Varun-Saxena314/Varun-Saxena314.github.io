@@ -25,7 +25,7 @@ const HomePage = () => {
     </div>
     </div>
     <div className='picture'>
-        /*<img src={myImage} alt="Profile" />*/
+        <img src={myImage} alt="Profile" />
     </div>
     </div>
   );
