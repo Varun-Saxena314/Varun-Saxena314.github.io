@@ -76,6 +76,9 @@
       .project-container h1{
         font-size: 250%;
       }
+      .container h1::after{
+        height: 3.5px;
+      }
 }
 @media (max-width: 560px){
     /* homepage */
@@ -127,6 +130,7 @@
       }
       .container h1:after{
         width: 20px;
+        height: 3px;
       }
       /*project*/
       .project-container p{
@@ -214,6 +218,7 @@
       }
       .container h1:after{
         width: 10px;
+        height: 2px;
       }
       .altText{
         font-size: 35%;
