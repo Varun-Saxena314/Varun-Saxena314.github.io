@@ -117,6 +117,10 @@
       .skillCard{
         width: 65px;
         height: 90px;
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3), 
+  1px 1px 10px rgba(0, 0, 0, 0.3) inset, 
+  -1px -1px 10px rgba(0, 0, 0, 0.3), 
+  -1px -1px 10px rgba(0, 0, 0, 0.3) inset; 
       }
       .skillCard p1{
         font-size: 70%;
