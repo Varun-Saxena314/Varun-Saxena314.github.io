@@ -62,7 +62,8 @@ const About = () => {
             <p className='fade'>I continued to kindle and grow my interest in computer science when I arrived at UVA.
                 I've taken many insightful computer science undergraduate classes, helping me learn more about the field, 
                 such as data structures, 
-                computer systems, and discrete mathematics. 
+                computer systems, and discrete mathematics. I also joined a research
+                team at the University to deepen my understanding of AI and Machine Learning.
             </p>
             <p className='fade'>I want to continue expanding my knowledge on computer 
                 science and one day contribute in the full-stack development of web applications
