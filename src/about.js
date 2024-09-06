@@ -129,10 +129,10 @@ const About = () => {
               <div className='text'>
                 <h1 className = 'fade' style = {{fontSize: '300%'}}>Hobbies</h1>
                     <p className='fade'> My favorite passtimes and hobbies include playing basketball,
-                        playing volleyball, cooking delicious food, sketching and drawing,
+                        playing volleyball, cooking, sketching and drawing,
                         and spending time with my friends and family. These interests 
                         help showcase my personal values
-                        of teamwork, creativity, and appreciating and respecting others.
+                        of teamwork, creativity, and respecting others.
                     </p>
             </div>
         </div>
