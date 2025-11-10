@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.89f76fbb.css",
+    "main.js": "/static/js/main.921b93b5.js",
+    "static/js/453.b21a91d2.chunk.js": "/static/js/453.b21a91d2.chunk.js",
+    "static/media/profilepic.jpg": "/static/media/profilepic.d88281c7f696a0c600b1.jpg",
+    "static/media/python_logo.png": "/static/media/python_logo.c44b9b809ebf766cbb4f.png",
+    "static/media/React_logo.webp": "/static/media/React_logo.fc0396332c9ab25d028a.webp",
+    "static/media/JS_logo.webp": "/static/media/JS_logo.1053926cf2f54323bdc1.webp",
+    "static/media/CSS_logo.png": "/static/media/CSS_logo.00aabb580fbe10db4123.png",
+    "static/media/C_logo.png": "/static/media/C_logo.d5ddcabe6655167f86ca.png",
+    "static/media/SQL_logo.webp": "/static/media/SQL_logo.d4387177b3063450c496.webp",
+    "static/media/java_logo.webp": "/static/media/java_logo.6f743694cf528a37093a.webp",
+    "static/media/HTML_logo.webp": "/static/media/HTML_logo.de35146995fd53fa9fa2.webp",
+    "index.html": "/index.html",
+    "main.89f76fbb.css.map": "/static/css/main.89f76fbb.css.map",
+    "main.921b93b5.js.map": "/static/js/main.921b93b5.js.map",
+    "453.b21a91d2.chunk.js.map": "/static/js/453.b21a91d2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.89f76fbb.css",
+    "static/js/main.921b93b5.js"
+  ]
+}
