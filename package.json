@@ -1,7 +1,7 @@
 {
   "name": "my_react_app",
   "version": "0.1.0",
-  "homepage": "https://Varun-Saxena314.github.io",
+  "homepage": "https://varun-saxena314.github.io",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -15,10 +15,11 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "clean": "rimraf ./static ./asset-manifest.json ./index.html",
+    "copy-build": "cpy \"build/**\" ./ --flat",
+    "deploy": "npm run build && npm run clean && npm run copy-build && git add . && git commit -m \"Deploy updated site\" && git push",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -42,7 +43,6 @@
   },
   "devDependencies": {
     "cpy-cli": "^6.0.0",
-    "gh-pages": "^6.1.1",
     "rimraf": "^6.1.0"
   }
 }

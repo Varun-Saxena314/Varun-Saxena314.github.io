@@ -305,6 +305,7 @@ const xp = experiences[xpIndex];
           <div className="project-tags">
             <span className="project-tag">React Native</span>
             <span className="project-tag">JavaScript</span>
+            <span className="project-tag">Firebase</span>
           </div>
         </div>
         <div className="project-actions">
