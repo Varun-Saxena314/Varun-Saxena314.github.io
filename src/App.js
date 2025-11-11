@@ -299,7 +299,7 @@ const xp = experiences[xpIndex];
         <div className="project-copy">
           <h3 className="project-title">Camp Finder Mobile</h3>
           <p className="project-blurb">
-            Mobile app to discover campsites and plan trips. 
+            Mobile app to discover campsites, plan trips, and log animals. 
             Built with React Native and JavaScript for cross-platform compatibility.
           </p>
           <div className="project-tags">
