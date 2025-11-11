@@ -1,8 +1,8 @@
 {
-  "name": "my_react_app",
-  "version": "0.1.0",
-  "homepage": "https://varun-saxena314.github.io",
+  "name": "varun-portfolio",
+  "version": "1.0.0",
   "private": true,
+  "homepage": "https://varun-saxena314.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -14,35 +14,33 @@
     "typewriter-effect": "^2.21.0",
     "web-vitals": "^2.1.4"
   },
+  "devDependencies": {
+    "cpy-cli": "^6.0.0",
+    "rimraf": "^6.1.0",
+    "shx": "^0.3.4"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "clean": "rimraf ./static ./asset-manifest.json ./index.html",
-    "copy-build": "cpy \"build/**\" ./ --flat",
-    "deploy": "npm run build && npm run clean && npm run copy-build && git add . && git commit -m \"Deploy updated site\" && git push",
+
+    "clean-docs": "rimraf ./docs && mkdir docs",
+    "copy-to-docs": "cpy \"build/**\" ./docs --parents && shx touch docs/.nojekyll",
+
+    "deploy": "npm run build && npm run clean-docs && npm run copy-to-docs && git add docs && git commit -m \"Deploy updated site\" || echo \"No changes to commit\" && git push",
+
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "postdeploy": "rimraf build"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "extends": ["react-app", "react-app/jest"]
   },
   "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
+    "production": [">0.2%", "not dead", "not op_mini all"],
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "cpy-cli": "^6.0.0",
-    "rimraf": "^6.1.0"
   }
 }
