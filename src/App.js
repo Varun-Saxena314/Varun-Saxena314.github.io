@@ -333,9 +333,9 @@ const xp = experiences[xpIndex];
           </p>
           <div className="project-tags">
             <span className="project-tag">Python</span>
+            <span className="project-tag">SQL</span>
             <span className="project-tag">MySQL</span>
             <span className="project-tag">MongoDB</span>
-            <span className="project-tag">ETL</span>
           </div>
         </div>
         <div className="project-actions">
